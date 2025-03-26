@@ -5,7 +5,7 @@ app = Flask(__name__)
 lista_calculos = []
 
 @app.route("/soma", methods= ["POST"])
-def somar():
+def samrnum():
     dados_recebidos = request.get_json()
     numero1 = dados_recebidos ['numero1']
     numero2 = dados_recebidos ['numero2']
