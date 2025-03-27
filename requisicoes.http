@@ -3,12 +3,23 @@ Content-Type:application/json
 
 {
     "numero1":2,
-    "numero2":2
+    "numero2":3
 }
 
 
-
-
-
+###
 GET http://127.0.0.1:5000/calculos
 Content-Type: application/json
+
+###
+DELETE http://127.0.0.1:5000/deletar/4299909b-d952-486b-8ed9-2e4e74596366
+
+
+###
+PUT http://127.0.0.1:5000/editar/8761d4b5-dd29-4ecc-aedd-9e21fb2329d8
+Content-Type: application/json
+
+{
+    "numero1":9,
+    "numero2":10
+}
